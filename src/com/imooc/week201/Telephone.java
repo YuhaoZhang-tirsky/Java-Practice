@@ -8,9 +8,16 @@ package com.imooc.week201;
  *
  */
 public class Telephone {
-	float screen;
-	float cpu;
-	float mem;
+	private float screen;
+	private float cpu;
+	private float mem;
+	
+	public float getScreen() {
+		return screen;
+	}
+	public void setScreen(float newscreen) {
+		screen = newscreen;
+	}
 	public Telephone() {
 		System.out.println("无参的构造方法执行了");
 	}

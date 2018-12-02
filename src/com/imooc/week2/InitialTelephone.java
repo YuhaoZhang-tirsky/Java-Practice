@@ -1,7 +1,6 @@
-/**
- * 
- */
 package com.imooc.week2;
+
+
 
 /**
  * @author tirsky
